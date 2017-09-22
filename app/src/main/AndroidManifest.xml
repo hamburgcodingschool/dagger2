@@ -6,12 +6,19 @@
       android:icon="@mipmap/ic_launcher"
       android:label="@string/app_name"
       android:roundIcon="@mipmap/ic_launcher_round"
-      android:name=".complex.application.ComplexApplication"
+      android:name=".e19android.AndroidApplication"
       android:supportsRtl="true">
-    <activity android:name=".complex.home.HomeActivity"/>
-    <activity android:name=".complex.login.LoginActivity"/>
-    <activity android:name=".complex.logout.LogoutActivity"/>
-    <activity android:name=".complex.MainActivity">
+    <!-- android:name=".complex.application.ComplexApplication" -->
+    <activity android:name=".e18complex.home.HomeActivity"/>
+    <activity android:name=".e18complex.login.LoginActivity"/>
+    <activity android:name=".e18complex.logout.LogoutActivity"/>
+    <activity android:name=".e18complex.MainActivity">
+      <!--<intent-filter>-->
+        <!--<action android:name="android.intent.action.MAIN"/>-->
+        <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+      <!--</intent-filter>-->
+    </activity>
+    <activity android:name=".e19android.SomeActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
         <category android:name="android.intent.category.LAUNCHER"/>
